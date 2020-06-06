@@ -20,7 +20,7 @@ class Product extends Warehouse {
     }
     public function printClass() {
         echo "<li> Brend: $this->brend </li>
-            <li> Price: $this->price </li>
+            <li> Price: $this->price Euro</li>
             <li> Size: $this->size </li>";
     }
 }
