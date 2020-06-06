@@ -18,4 +18,9 @@ class Product extends Warehouse {
         $price_discount = $this->price - $discount;
         return number_format($price_discount, 2);
     }
+    public function printClass() {
+        echo "<li> Brend: $this->brend </li>
+            <li> Price: $this->price </li>
+            <li> Size: $this->size </li>";
+    }
 }

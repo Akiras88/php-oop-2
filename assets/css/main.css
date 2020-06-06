@@ -1,0 +1,30 @@
+/* FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/* GENERAL SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(33, 29, 29);
+    color: rgb(216, 209, 209);
+}
+h1 {
+    text-align: center;
+}
+.Main {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.container {
+    margin: 15px;
+    max-width: calc(100%/3);
+}
+.container img {
+    max-width: 200px;
+}
+.product li{
+    list-style: none;
+}
